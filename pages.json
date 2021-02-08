@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/detail/index",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/registe/index",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+
+		{
+			"path": "pages/address/index",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/address/change",
+			"style": {
+				"navigationBarTitleText": "修改地址"
+			}
+		},
+		{
+			"path": "pages/address/addaddress",
+			"style": {
+				"navigationBarTitleText": "新增地址"
+			}
+		},
+		{
+			"path": "pages/order/creatOrder",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/order/paysuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/login/download",
+			"style": {
+				"navigationBarTitleText": "APP下载"
+			}
+		},
+		{
+			"path": "pages/public/index",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "戴胜鸟图书",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"h5":{
+			"titleNView":false
+		}
+	}
+}
